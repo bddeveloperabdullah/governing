@@ -1,0 +1,9 @@
+.bg-gradient-primary {
+  background: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
+}
+.bg-gradient-secondary {
+  background: linear-gradient(161.45deg, #00d2ff -5.54%, #9aedff 59.11%);
+}
+.card-shadow {
+  box-shadow: 0px 10px 30px 0px #02b6dc26;
+}

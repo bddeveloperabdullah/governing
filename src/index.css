@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Space+Grotesk:wght@300..700&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-space: "Space Grotesk", "sans-serif";
+  --font-nunito: "Nunito Sans", "sans-serif";
+  --color-primary: rgba(0, 210, 255, 1);
+  --color-secondary: rgba(45, 45, 45, 1);
+  --color-accent: rgba(102, 102, 102, 1);
+}
