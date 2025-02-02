@@ -3,7 +3,9 @@
 @theme {
   --font-space: "Space Grotesk", "sans-serif";
   --font-nunito: "Nunito Sans", "sans-serif";
-  --color-primary: rgba(0, 210, 255, 1);
-  --color-secondary: rgba(45, 45, 45, 1);
-  --color-accent: rgba(102, 102, 102, 1);
+  --color-primary: #00d2ff;
+  --color-secondary: #2d2d2d;
+  --color-accent: #666666;
+  --shadow-cardShadow: 0px 10px 30px 0px #02b6dc26;
+  --shadow-arrowShadow: 0px 4px 15px 0px #0000001a;
 }
