@@ -7,8 +7,11 @@ const MobileNav = ({ toggleMenu }) => {
     <>
       <div className="block lg:hidden absolute top-0 left-0 w-full h-screen bg-white z-50 p-6 overflow-y-hidden">
         <div className="flex justify-between items-center gap-5 pb-5">
-          <Logo />
-          <button className="text-black text-4xl self-end" onClick={toggleMenu}>
+          <Logo>GoverningDocs</Logo>
+          <button
+            className="text-black text-4xl self-end cursor-pointer "
+            onClick={toggleMenu}
+          >
             &times;
           </button>
         </div>

@@ -14,7 +14,7 @@ const NavBar = () => {
         <Container>
           <div className="w-full mx-w-[1248px] flex justify-between items-center gap-2 py-5 px-[30px] rounded-full  bg-white">
             {/* logo Area  */}
-            <Logo />
+            <Logo>GoverningDocs</Logo>
 
             {/* Menu Area  */}
             <div className="hidden lg:flex justify-center items-center gap-5">
@@ -31,7 +31,7 @@ const NavBar = () => {
             {/* Button Area  */}
             <div className="flex justify-center items-center gap-2">
               <button className="block lg:hidden" onClick={toggleMenu}>
-                <div className="space-y-1">
+                <div className="space-y-1 cursor-pointer">
                   <span className="block w-6 h-0.5 bg-black" />
                   <span className="block w-6 h-0.5 bg-black" />
                   <span className="block w-6 h-0.5 bg-black" />

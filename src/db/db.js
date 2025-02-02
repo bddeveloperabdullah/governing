@@ -1,3 +1,6 @@
+/**
+ * @public Desktop Menu + Mobile Menu
+ */
 export const NavItem = [
   {
     url: "#",
@@ -18,5 +21,28 @@ export const NavItem = [
   {
     url: "#",
     itemName: "FAQs",
+  },
+];
+
+/**
+ * @public Social Menu
+ */
+
+export const socialMenuItem = [
+  {
+    url: "#",
+    icon: "facebook.png",
+  },
+  {
+    url: "#",
+    icon: "instagram.png",
+  },
+  {
+    url: "#",
+    icon: "linkedin.png",
+  },
+  {
+    url: "#",
+    icon: "twitter.png",
   },
 ];
